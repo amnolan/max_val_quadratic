@@ -70,11 +70,11 @@ denom1 = top_row_first[0]*top_row_first[0] + top_row_first[1]*top_row_first[1]
 denom2 = top_row_second[0]*top_row_second[0] + top_row_second[1]*top_row_second[1] 
 
 print("Assuming x2 is free")
-print("First vector's denominator is: √",denom1)
-print("second vector's deoninator is: √",denom2)
+print("First vector's denominator is: sqrt",denom1)
+print("second vector's deoninator is: sqrt",denom2)
 matrix_1 = [top_row_first[1]*-1,1]
 matrix_2 = [top_row_second[1]*-1,1]
 print("First unit vector (assuming) 1 for x2:")
-print("[", matrix_1[0],"/ √",denom1,", 1/ √",denom1,"]")
+print("[", matrix_1[0],"/ sqrt",denom1,", 1/ sqrt",denom1,"]")
 print("Second unit vector (assuming) 1 for x2:")
-print("[", matrix_2[0],"/ √",denom2,", 1/ √",denom2,"]")
+print("[", matrix_2[0],"/ sqrt",denom2,", 1/ sqrt",denom2,"]")
